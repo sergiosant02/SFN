@@ -3,5 +3,6 @@ def parse_str_to_bin(text: str):
 
 def convert_to_four_bits(data: list):
     data_txt = ''.join(str(i) for i in data)
+    print('prueba')
     bits_array = [ data_txt[i:i+4] for i in range(0,len(data_txt), 4)]
     return bits_array
